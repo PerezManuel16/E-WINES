@@ -1,0 +1,61 @@
+$posicionImagen: absolute;
+
+body{
+    background: $colorGradiant;
+}
+.encabezado{
+    display: flex;
+}
+header a{
+    transition: all 2s;
+}
+header a:hover{
+    transform: rotateZ(360deg);
+}
+main div div img{
+    transition: 1s;
+}
+main div div img:hover{
+    transform: scale(1.2);
+}
+h1{ 
+    font-style: $estilo;
+    font-family: $tipografia;
+    font-size: 400%;
+    animation-name: titulo;
+    animation-duration: 4s;
+    color: $colorNegro;
+}
+@keyframes titulo{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.titulos:hover{
+    color: $colorNegro;
+    transform: scale(1.2);
+}
+.imagenHome{
+    display: grid;
+    position: $posicionImagen;
+    z-index: -1;
+}
+.textoHome{
+    display: grid;
+    position: $posicionImagen;
+    z-index: 1;
+}
+h2{
+    font-family: $tipografia;
+    color: $colorSegundo;
+    font-size: 30px;
+    text-align: $texto;
+}
+p{
+    font-style: $estilo;
+    font-family: $tipografia;
+    font-size: 18px;
+}

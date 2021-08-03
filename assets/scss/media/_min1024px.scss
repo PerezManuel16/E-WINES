@@ -1,0 +1,38 @@
+@import "../utilities/mixin";
+
+@media only screen and (min-width: 1024px){
+
+    .encabezado{
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .navegador__lista{
+        flex-direction: row;
+        @include nabvar(90% , center )
+    }
+    .imagenHome{
+        @include imagenIndex(100% , 100% , relative )
+    }
+    .contenidoVinos {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas:
+            "area1 area2"
+            "area3 area4"
+            "area5 area6"
+            "area7 area8";
+        justify-items: start;
+        column-gap: 5px;
+        row-gap: 5px;
+    }
+    .imagenBodega{
+        max-width: 80%;
+        margin: 0 auto;
+        box-shadow: $sombras;
+    }
+    .sugerencia__imagenSugerencia{
+        max-width: 80%;
+        margin:0 auto;
+    }
+}

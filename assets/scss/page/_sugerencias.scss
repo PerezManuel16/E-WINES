@@ -1,0 +1,14 @@
+$bordeSugerencia: 0px 41px 41px 41px;
+
+.sugerencia{
+    &__imagenSugerencia{
+        display: flex;
+        flex-direction:column;
+        border-radius: $bordeSugerencia;
+        border: 6px solid;
+    }
+    &__textoSugerencia{
+        margin-left: 15%;
+        margin-right: 13%;
+    }
+}

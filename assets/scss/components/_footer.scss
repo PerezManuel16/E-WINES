@@ -1,0 +1,12 @@
+.estiloFooter{
+    display: flex;
+    background-color: $colorNegro;
+    color: $colorBlanco;
+    width: auto;
+
+    .estiloFooter__textoFooter{
+        text-align:$texto;
+        width: 100%;
+        justify-content: flex-end;
+    }
+}

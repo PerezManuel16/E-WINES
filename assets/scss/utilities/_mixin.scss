@@ -1,0 +1,10 @@
+@mixin imagenIndex ($alto , $ancho , $ubicacion){
+    height: $alto;
+    width: $ancho;
+    position: $ubicacion;
+}
+
+@mixin nabvar($alto , $alineacion ){
+    height: $alto;
+    align-items: $alineacion;
+}

@@ -1,0 +1,17 @@
+$margen: 20%;
+
+label{
+    display: block;
+}
+form{
+    text-align: $texto;
+    font-family: $tipografia;
+    color: $colorNegro;
+    font-style: $estilo;
+    font-size: 20px;
+    margin-left: $margen;
+    margin-right: $margen;
+}
+form div input{
+    width: 100%;
+}
