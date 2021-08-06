@@ -1,10 +1,14 @@
 $posicionImagen: absolute;
 
 body{
-    background: $colorGradiant;
+    background: rgb(146, 54, 100);
 }
 .encabezado{
     display: flex;
+    
+}
+header{
+    display: block;
 }
 header a{
     transition: all 2s;
@@ -25,6 +29,7 @@ h1{
     animation-name: titulo;
     animation-duration: 4s;
     color: $colorNegro;
+    font-stretch: condensed;
 }
 @keyframes titulo{
     from{
