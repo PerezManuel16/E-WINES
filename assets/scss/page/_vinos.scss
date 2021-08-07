@@ -3,6 +3,27 @@ $altoVinos: 95%;
 $anchoVinos: 95%;
 $filaVino: row;
 
+main{
+    background-color: white;
+}
+.card-body{
+    color: $colorVioleta;
+    justify-content: center;
+    
+    
+}
+.oferta{
+    text-align: center;
+    background-color: rgb(231, 235, 8);
+    color:$colorVioleta ;
+    font-weight: 900;
+}
+h3{
+    font-family: 'Alegreya SC', serif;
+    font-weight: 500;
+    
+    
+}
 .contenidoVinos{
     display: grid;
     grid-template-columns: 100%;
@@ -33,9 +54,9 @@ $filaVino: row;
         justify-content: center;
     }
 }
-span button{
-    margin-left: 40%;
-    transition: 300ms;
+.boton{
+    padding-left: 28px;
+    
 }
 }
 

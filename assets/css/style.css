@@ -60,6 +60,23 @@ p {
     margin-left: 15%;
     margin-right: 13%; }
 
+main {
+  background-color: white; }
+
+.card-body {
+  color: #923664;
+  justify-content: center; }
+
+.oferta {
+  text-align: center;
+  background-color: #e7eb08;
+  color: #923664;
+  font-weight: 900; }
+
+h3 {
+  font-family: 'Alegreya SC', serif;
+  font-weight: 500; }
+
 .contenidoVinos {
   display: grid;
   grid-template-columns: 100%;
@@ -155,9 +172,8 @@ p {
     justify-content: space-evenly; }
   .contenidoVinos__centradoVino {
     justify-content: center; }
-  .contenidoVinos span button {
-    margin-left: 40%;
-    transition: 300ms; }
+  .contenidoVinos .boton {
+    padding-left: 28px; }
 
 .subtitulos {
   font-style: italic;
