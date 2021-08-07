@@ -1,35 +1,38 @@
 .navegador{
-    margin:10px ;
+    margin-bottom:10px ;
     
     .navegador__lista{
         display: flex;
         list-style-type: none;
         padding: 0;
         margin: 0;
+        width: 100%;
     }
 
     .navegador__item{
-        text-align: $texto;
-        font-family: $tipografia;
+        text-align: center;
+        font-family: 'Alegreya SC', serif;
         font-size: 20px;
-        background-color: $colorNegro;
-        color: $colorNegro;
+        background-color:black;
+        color: black;
         border: solid 1px;
         width: 100%;
         transition: 0.5s;
+        font-stretch: condensed;
+        font-style: oblique;
     }
 
     .navegador__link{
         text-decoration:none;
-        color: $colorBlanco;
-        font-family: $tipografia;
+        color: white;
+        font-family: 'Alegreya SC', serif;
         font-stretch: condensed;
         font-style: italic;
     }
     
     .navegador__item:hover{
         background-color: $colorRosa;
-        transform: scale(1.1);
+        transform: unset;
     }
     .navegador__link:hover{
         color: $colorVioleta;

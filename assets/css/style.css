@@ -1,11 +1,9 @@
 body {
   background: #923664; }
 
-.encabezado {
-  display: flex; }
-
 header {
-  display: block; }
+  display: inline-block;
+  width: 100%; }
 
 header a {
   transition: all 2s; }
@@ -13,26 +11,18 @@ header a {
 header a:hover {
   transform: rotateZ(360deg); }
 
-main div div img {
-  transition: 1s; }
-
-main div div img:hover {
-  transform: scale(1.2); }
+header div {
+  text-align: center; }
 
 h1 {
-  font-style: italic;
-  font-family: "Montserrat", sans-serif;
-  font-size: 400%;
-  animation-name: titulo;
-  animation-duration: 4s;
+  font-stretch: condensed;
+  font-style: oblique;
+  font-family: 'Alegreya SC', serif;
+  font-size: 300%;
+  font-weight: 500;
+  text-align: center;
   color: black;
-  font-stretch: condensed; }
-
-@keyframes titulo {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
+  width: auto; }
 
 .titulos:hover {
   color: black;
@@ -49,14 +39,14 @@ h1 {
   z-index: 1; }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Alegreya SC', serif;
   color: white;
   font-size: 30px;
   text-align: center; }
 
 p {
   font-style: italic;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Alegreya SC", serif;
   font-size: 18px; }
 
 .contenidoBodegas {
@@ -82,57 +72,110 @@ p {
     width: 95%;
     height: 95%;
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-evenly; }
+  .contenidoVinos__centradoVino {
+    justify-content: center; }
   .contenidoVinos__caja-2 {
     grid-area: area2;
     width: 95%;
     height: 95%;
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-evenly; }
+  .contenidoVinos__centradoVino {
+    justify-content: center; }
   .contenidoVinos__caja-3 {
     grid-area: area3;
     width: 95%;
     height: 95%;
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-evenly; }
+  .contenidoVinos__centradoVino {
+    justify-content: center; }
   .contenidoVinos__caja-4 {
     grid-area: area4;
     width: 95%;
     height: 95%;
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-evenly; }
+  .contenidoVinos__centradoVino {
+    justify-content: center; }
   .contenidoVinos__caja-5 {
     grid-area: area5;
     width: 95%;
     height: 95%;
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-evenly; }
+  .contenidoVinos__centradoVino {
+    justify-content: center; }
   .contenidoVinos__caja-6 {
     grid-area: area6;
     width: 95%;
     height: 95%;
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-evenly; }
+  .contenidoVinos__centradoVino {
+    justify-content: center; }
   .contenidoVinos__caja-7 {
     grid-area: area7;
     width: 95%;
     height: 95%;
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-evenly; }
+  .contenidoVinos__centradoVino {
+    justify-content: center; }
   .contenidoVinos__caja-8 {
     grid-area: area8;
     width: 95%;
     height: 95%;
     display: flex;
-    flex-direction: row; }
-  .contenidoVinos__definicion {
-    height: 80%;
-    width: 80%;
-    margin-left: 17px; }
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-evenly; }
+  .contenidoVinos__centradoVino {
+    justify-content: center; }
+  .contenidoVinos span button {
+    margin-left: 40%;
+    transition: 300ms; }
 
-span button {
-  margin-left: 40%;
-  transition: 300ms; }
+.subtitulos {
+  font-style: italic;
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  background-color: black;
+  margin-top: 10px;
+  border-top: solid;
+  border-bottom: solid;
+  font-family: 'Alegreya SC', serif;
+  border-color: white;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+.promociones {
+  text-align: center; }
 
 .sugerencia__imagenSugerencia {
   display: flex;
@@ -149,7 +192,7 @@ label {
 
 form {
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Alegreya SC", serif;
   color: black;
   font-style: italic;
   font-size: 20px;
@@ -160,30 +203,33 @@ form div input {
   width: 100%; }
 
 .navegador {
-  margin: 10px; }
+  margin-bottom: 10px; }
   .navegador .navegador__lista {
     display: flex;
     list-style-type: none;
     padding: 0;
-    margin: 0; }
+    margin: 0;
+    width: 100%; }
   .navegador .navegador__item {
     text-align: center;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Alegreya SC', serif;
     font-size: 20px;
     background-color: black;
     color: black;
     border: solid 1px;
     width: 100%;
-    transition: 0.5s; }
+    transition: 0.5s;
+    font-stretch: condensed;
+    font-style: oblique; }
   .navegador .navegador__link {
     text-decoration: none;
     color: white;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Alegreya SC', serif;
     font-stretch: condensed;
     font-style: italic; }
   .navegador .navegador__item:hover {
     background-color: #FF94C9;
-    transform: scale(1.1); }
+    transform: unset; }
   .navegador .navegador__link:hover {
     color: #923664; }
 
@@ -217,7 +263,39 @@ form div input {
     column-gap: 5px; }
   .sugerencia__imagenSugerencia {
     max-width: 80%;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  .contenidoVinos__caja-1 {
+    flex-direction: column;
+    align-items: center;
+    height: 100%; }
+  .contenidoVinos__caja-2 {
+    flex-direction: column;
+    align-items: center;
+    height: 100%; }
+  .contenidoVinos__caja-3 {
+    flex-direction: column;
+    align-items: center;
+    height: 100%; }
+  .contenidoVinos__caja-4 {
+    flex-direction: column;
+    align-items: center;
+    height: 100%; }
+  .contenidoVinos__caja-5 {
+    flex-direction: column;
+    align-items: center;
+    height: 100%; }
+  .contenidoVinos__caja-6 {
+    flex-direction: column;
+    align-items: center;
+    height: 100%; }
+  .contenidoVinos__caja-7 {
+    flex-direction: column;
+    align-items: center;
+    height: 100%; }
+  .contenidoVinos__caja-8 {
+    flex-direction: column;
+    align-items: center;
+    height: 100%; } }
 
 @media only screen and (min-width: 600px) {
   .encabezado {
