@@ -24,10 +24,6 @@ h1 {
   color: black;
   width: auto; }
 
-.titulos:hover {
-  color: black;
-  transform: scale(1.2); }
-
 .imagenHome {
   display: grid;
   position: absolute;
@@ -51,14 +47,20 @@ p {
 
 .contenidoBodegas {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  margin-top: 15px; }
   .contenidoBodegas .contenidoBodegas__imagenBodega {
     max-width: 80%;
-    margin: 0 auto;
-    box-shadow: 15px 9px 15px -2px rgba(0, 0, 0, 0.75); }
+    margin: auto;
+    box-shadow: 15px 9px 15px -2px rgba(0, 0, 0, 0.75);
+    margin-top: 15px; }
   .contenidoBodegas .contenidoBodegas__textoBodegas {
     margin-left: 15%;
     margin-right: 13%; }
+
+.titulos {
+  margin-top: 20px;
+  font-family: "Alegreya SC", serif; }
 
 main {
   background-color: white; }
@@ -193,6 +195,10 @@ h3 {
 .promociones {
   text-align: center; }
 
+.flotante {
+  float: right;
+  position: relative -1; }
+
 .articulo-1 {
   display: flex;
   margin-top: 20px;
@@ -216,7 +222,8 @@ h3 {
 .articulo-2 {
   display: flex;
   margin-top: 20px;
-  flex-direction: row-reverse; }
+  flex-direction: row-reverse;
+  font-family: 'Alegreya SC', serif; }
 
 label {
   display: block; }
@@ -383,4 +390,7 @@ form div input {
   .articulo-2 {
     display: flex;
     margin-top: 20px;
-    flex-direction: row-reverse; } }
+    flex-direction: row-reverse;
+    font-family: "Alegreya SC", serif;
+    font-size: 18px;
+    font-style: italic; } }

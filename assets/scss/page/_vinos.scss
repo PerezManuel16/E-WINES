@@ -34,6 +34,7 @@ h3{
     justify-content: $contenidoVino;
     column-gap: 5px;
     row-gap: 5px;
+    
 
     @for $i from 1 through 8{
         &__caja-#{$i}{
@@ -73,4 +74,10 @@ h3{
 }
 .promociones{
     text-align: center;
+    
+}
+.flotante{
+    float: right;
+    position: relative -1;
+    
 }

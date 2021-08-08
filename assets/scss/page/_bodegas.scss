@@ -4,14 +4,20 @@ $textoBodegas: center;
 .contenidoBodegas{
     display: flex;
     flex-direction: column;
+    margin-top: 15px;
 
     .contenidoBodegas__imagenBodega{
         max-width: 80%;
-        margin: 0 auto;
+        margin: auto;
         box-shadow: $sombras;
+        margin-top: 15px;
     }
     .contenidoBodegas__textoBodegas{
         margin-left: 15%;
         margin-right: 13%;
     }
+}
+.titulos{
+    margin-top: 20px;
+    font-family: $tipografia;
 }
