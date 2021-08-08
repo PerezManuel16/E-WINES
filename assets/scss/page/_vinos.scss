@@ -9,8 +9,6 @@ main{
 .card-body{
     color: $colorVioleta;
     justify-content: center;
-    
-    
 }
 .oferta{
     text-align: center;
@@ -19,10 +17,8 @@ main{
     font-weight: 900;
 }
 h3{
-    font-family: 'Alegreya SC', serif;
-    font-weight: 500;
-    
-    
+    font-family: $tipografia;
+    font-weight: 500;    
 }
 .contenidoVinos{
     display: grid;
@@ -70,7 +66,7 @@ h3{
     margin-top: 10px;
     border-top: solid;
     border-bottom: solid;
-    font-family: 'Alegreya SC', serif;
+    font-family: $tipografia;
     border-color: white;
     padding-bottom: 10px;
     padding-top: 10px;

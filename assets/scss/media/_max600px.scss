@@ -2,29 +2,20 @@
 
 
 @media only screen and (max-width: 600px){
-    .encabezado{
-        flex-direction: row;
-        align-items: $texto;
-        width: 100%;
-    }
+    
     .navegador__lista{
         flex-direction: column;
         height: 100%;
         justify-content: space-evenly;
     }
-    .imagenHome{
-        @include imagenIndex(100% , 100% , relative )
-    }
+
     .contenidoVinos{
         display: grid;
         grid-template-columns: 95%;
         justify-content: center;
         column-gap: 5px;
     }
-    .sugerencia__imagenSugerencia{
-        max-width: 80%;
-        margin:0 auto;
-    }
+    
     .contenidoVinos__caja-1{
         flex-direction: column;
         align-items: center;
@@ -65,5 +56,21 @@
         flex-direction: column;
         align-items: center;
         height: 100%;
+    }
+    .imagenSugerencia{
+        align-items: baseline;
+        max-width: 80%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .articulo-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .articulo-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }

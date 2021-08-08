@@ -11,7 +11,7 @@
 
     .navegador__item{
         text-align: center;
-        font-family: 'Alegreya SC', serif;
+        font-family: $tipografia;
         font-size: 20px;
         background-color:black;
         color: black;
@@ -25,7 +25,7 @@
     .navegador__link{
         text-decoration:none;
         color: white;
-        font-family: 'Alegreya SC', serif;
+        font-family: $tipografia;
         font-stretch: condensed;
         font-style: italic;
     }
