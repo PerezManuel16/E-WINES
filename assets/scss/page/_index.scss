@@ -1,19 +1,14 @@
-$posicionImagen: absolute;
+
 
 body{
-    background: rgb(146, 54, 100);
+    background: $colorVioleta;
 }
 
 header{
     display: inline-block;
     width: 100%;
 }
-header a{
-    transition: all 2s;
-}
-header a:hover{
-    transform: rotateZ(360deg);
-}
+
 header div{
     text-align: center;
 }
@@ -30,10 +25,9 @@ h1{
     padding-bottom: 35px;
 }
 
-
 h2{
     font-family: $tipografia;
-    color: black;
+    color: $colorNegro;
     font-size: 30px;
     text-align: center;
 }

@@ -5,12 +5,6 @@ header {
   display: inline-block;
   width: 100%; }
 
-header a {
-  transition: all 2s; }
-
-header a:hover {
-  transform: rotateZ(360deg); }
-
 header div {
   text-align: center; }
 
@@ -36,22 +30,21 @@ p {
   font-family: "Alegreya SC", serif;
   font-size: 18px; }
 
-.contenidoBodegas {
+section {
   display: flex;
   flex-direction: column;
   margin-top: 15px; }
-  .contenidoBodegas .contenidoBodegas__imagenBodega {
+  section img {
     max-width: 80%;
     margin: auto;
     box-shadow: 15px 9px 15px -2px rgba(0, 0, 0, 0.75);
     margin-top: 15px; }
-  .contenidoBodegas .contenidoBodegas__textoBodegas {
+  section div {
     margin-left: 15%;
     margin-right: 13%; }
-
-.titulos {
-  margin-top: 20px;
-  font-family: "Alegreya SC", serif; }
+  section h2 {
+    margin-top: 20px;
+    font-family: "Alegreya SC", serif; }
 
 main {
   background-color: white; }
@@ -197,7 +190,7 @@ h3 {
   display: flex;
   margin-top: 20px;
   flex-direction: row-reverse;
-  font-family: 'Alegreya SC', serif;
+  font-family: "Alegreya SC", serif;
   margin-right: 10px; }
 
 label {
@@ -252,34 +245,35 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   background-color: black; }
-
-.derechos {
-  color: white;
-  text-align: center;
-  justify-content: start;
-  margin-top: 10px; }
-
-.ubicacion {
-  margin-top: 10px;
-  color: white; }
-
-.siguenos {
-  margin-top: 10px;
-  color: white;
-  text-align: center; }
-
-footer div ul {
-  list-style-type: none;
-  margin-top: 10px; }
-
-.redes {
-  display: inline-flex; }
+  footer .derechos {
+    color: white;
+    text-align: center;
+    justify-content: start;
+    margin-top: 10px; }
+  footer .ubicacion {
+    margin-top: 10px;
+    color: white; }
+  footer .siguenos {
+    margin-top: 10px;
+    color: white;
+    text-align: center; }
+  footer div ul {
+    list-style-type: none;
+    margin-top: 10px; }
+  footer .redes {
+    display: inline-flex;
+    align-items: start; }
 
 @media only screen and (max-width: 600px) {
-  .navegador__lista {
+  footer {
+    align-items: center;
+    flex-direction: column; }
+  ul {
     flex-direction: column;
     height: 100%;
     justify-content: space-evenly; }
+  .redes {
+    flex-direction: row; }
   .contenidoVinos {
     display: grid;
     grid-template-columns: 95%;
@@ -329,12 +323,10 @@ footer div ul {
   .articulo-2 {
     display: flex;
     flex-direction: column;
-    justify-content: center; }
-  footer {
-    flex-direction: column; } }
+    justify-content: center; } }
 
 @media only screen and (min-width: 600px) {
-  .navegador__lista {
+  ul {
     flex-direction: row;
     height: 90%;
     align-items: center; }
@@ -343,10 +335,6 @@ footer div ul {
     grid-template-columns: 95%;
     justify-content: center;
     column-gap: 5px; }
-  .imagenBodega {
-    max-width: 80%;
-    margin: 0 auto;
-    box-shadow: 15px 9px 15px -2px rgba(0, 0, 0, 0.75); }
   .imagenSugerencia {
     align-items: baseline;
     max-width: 80%;
@@ -362,10 +350,6 @@ footer div ul {
     justify-content: center; } }
 
 @media only screen and (min-width: 1024px) {
-  .navegador__lista {
-    flex-direction: row;
-    height: 90%;
-    align-items: center; }
   .contenidoVinos {
     display: grid;
     grid-template-columns: 50% 50%;

@@ -1,11 +1,12 @@
-@import "../utilities/mixin";
+
 
 @media only screen and (min-width: 600px){
 
     
-    .navegador__lista{
+    ul{
         flex-direction: row;
-        @include nabvar(90% , center )
+        height: 90%;
+        align-items: center;
     }
     
     .contenidoVinos{
@@ -14,11 +15,7 @@
         justify-content: center;
         column-gap: 5px;
     }
-    .imagenBodega{
-        max-width: 80%;
-        margin: 0 auto;
-        box-shadow: $sombras;
-    }
+    
     .imagenSugerencia{
         align-items: baseline;
         max-width: 80%;

@@ -1,23 +1,22 @@
-$sombras: 15px 9px 15px -2px rgba(0,0,0,0.75);
-$textoBodegas: center;
 
-.contenidoBodegas{
+section{
     display: flex;
     flex-direction: column;
     margin-top: 15px;
 
-    .contenidoBodegas__imagenBodega{
+    img{
         max-width: 80%;
         margin: auto;
         box-shadow: $sombras;
         margin-top: 15px;
     }
-    .contenidoBodegas__textoBodegas{
+    div{
         margin-left: 15%;
         margin-right: 13%;
     }
-}
-.titulos{
+
+    h2{
     margin-top: 20px;
     font-family: $tipografia;
+}
 }
