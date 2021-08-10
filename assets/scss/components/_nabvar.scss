@@ -1,7 +1,7 @@
-.navegador{
+nav{
     margin-bottom:10px ;
     
-    .navegador__lista{
+    ul{
         display: flex;
         list-style-type: none;
         padding: 0;
@@ -9,7 +9,7 @@
         width: 100%;        
     }
 
-    .navegador__item{
+    li{
         text-align: center;
         font-family: $tipografia;
         font-size: 20px;
@@ -25,7 +25,7 @@
 
     }
 
-    .navegador__link{
+    a{
         text-decoration:none;
         color: white;
         font-family: $tipografia;
@@ -33,11 +33,11 @@
         font-style: italic;
     }
     
-    .navegador__item:hover{
+    li:hover{
         background-color: $colorRosa;
         transform: unset;
     }
-    .navegador__link:hover{
+    a:hover{
         color: $colorVioleta;
     }
 }
