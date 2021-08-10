@@ -6,7 +6,7 @@
         list-style-type: none;
         padding: 0;
         margin: 0;
-        width: 100%;
+        width: 100%;        
     }
 
     .navegador__item{
@@ -20,6 +20,9 @@
         transition: 0.5s;
         font-stretch: condensed;
         font-style: oblique;
+        height: 35px;
+        
+
     }
 
     .navegador__link{

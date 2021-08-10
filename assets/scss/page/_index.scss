@@ -27,20 +27,10 @@ h1{
     text-align: center;
     color: black;
     width: auto;
+    padding-bottom: 35px;
 }
 
 
-
-.imagenHome{
-    display: grid;
-    position: $posicionImagen;
-    z-index: -1;
-}
-.textoHome{
-    display: grid;
-    position: $posicionImagen;
-    z-index: 1;
-}
 h2{
     font-family: $tipografia;
     color: black;

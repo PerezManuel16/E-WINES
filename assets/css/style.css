@@ -22,17 +22,8 @@ h1 {
   font-weight: 500;
   text-align: center;
   color: black;
-  width: auto; }
-
-.imagenHome {
-  display: grid;
-  position: absolute;
-  z-index: -1; }
-
-.textoHome {
-  display: grid;
-  position: absolute;
-  z-index: 1; }
+  width: auto;
+  padding-bottom: 35px; }
 
 h2 {
   font-family: "Alegreya SC", serif;
@@ -95,8 +86,6 @@ h3 {
     margin-top: 10px;
     margin-bottom: 10px;
     justify-content: space-evenly; }
-  .contenidoVinos__centradoVino {
-    justify-content: center; }
   .contenidoVinos__caja-2 {
     grid-area: area2;
     width: 95%;
@@ -106,8 +95,6 @@ h3 {
     margin-top: 10px;
     margin-bottom: 10px;
     justify-content: space-evenly; }
-  .contenidoVinos__centradoVino {
-    justify-content: center; }
   .contenidoVinos__caja-3 {
     grid-area: area3;
     width: 95%;
@@ -117,8 +104,6 @@ h3 {
     margin-top: 10px;
     margin-bottom: 10px;
     justify-content: space-evenly; }
-  .contenidoVinos__centradoVino {
-    justify-content: center; }
   .contenidoVinos__caja-4 {
     grid-area: area4;
     width: 95%;
@@ -128,8 +113,6 @@ h3 {
     margin-top: 10px;
     margin-bottom: 10px;
     justify-content: space-evenly; }
-  .contenidoVinos__centradoVino {
-    justify-content: center; }
   .contenidoVinos__caja-5 {
     grid-area: area5;
     width: 95%;
@@ -139,8 +122,6 @@ h3 {
     margin-top: 10px;
     margin-bottom: 10px;
     justify-content: space-evenly; }
-  .contenidoVinos__centradoVino {
-    justify-content: center; }
   .contenidoVinos__caja-6 {
     grid-area: area6;
     width: 95%;
@@ -150,8 +131,6 @@ h3 {
     margin-top: 10px;
     margin-bottom: 10px;
     justify-content: space-evenly; }
-  .contenidoVinos__centradoVino {
-    justify-content: center; }
   .contenidoVinos__caja-7 {
     grid-area: area7;
     width: 95%;
@@ -161,8 +140,6 @@ h3 {
     margin-top: 10px;
     margin-bottom: 10px;
     justify-content: space-evenly; }
-  .contenidoVinos__centradoVino {
-    justify-content: center; }
   .contenidoVinos__caja-8 {
     grid-area: area8;
     width: 95%;
@@ -172,8 +149,6 @@ h3 {
     margin-top: 10px;
     margin-bottom: 10px;
     justify-content: space-evenly; }
-  .contenidoVinos__centradoVino {
-    justify-content: center; }
   .contenidoVinos .boton {
     padding-left: 28px; }
 
@@ -195,9 +170,8 @@ h3 {
 .promociones {
   text-align: center; }
 
-.flotante {
-  float: right;
-  position: relative -1; }
+.tituloPromociones {
+  color: white; }
 
 .articulo-1 {
   display: flex;
@@ -223,7 +197,8 @@ h3 {
   display: flex;
   margin-top: 20px;
   flex-direction: row-reverse;
-  font-family: 'Alegreya SC', serif; }
+  font-family: 'Alegreya SC', serif;
+  margin-right: 10px; }
 
 label {
   display: block; }
@@ -258,7 +233,8 @@ form div input {
     width: 100%;
     transition: 0.5s;
     font-stretch: condensed;
-    font-style: oblique; }
+    font-style: oblique;
+    height: 35px; }
   .navegador .navegador__link {
     text-decoration: none;
     color: white;
@@ -271,15 +247,33 @@ form div input {
   .navegador .navegador__link:hover {
     color: #923664; }
 
-.estiloFooter {
+footer {
   display: flex;
-  background-color: black;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: black; }
+
+.derechos {
   color: white;
-  width: auto; }
-  .estiloFooter .estiloFooter__textoFooter {
-    text-align: center;
-    width: 100%;
-    justify-content: flex-end; }
+  text-align: center;
+  justify-content: start;
+  margin-top: 10px; }
+
+.ubicacion {
+  margin-top: 10px;
+  color: white; }
+
+.siguenos {
+  margin-top: 10px;
+  color: white;
+  text-align: center; }
+
+footer div ul {
+  list-style-type: none;
+  margin-top: 10px; }
+
+.redes {
+  display: inline-flex; }
 
 @media only screen and (max-width: 600px) {
   .navegador__lista {
@@ -335,7 +329,9 @@ form div input {
   .articulo-2 {
     display: flex;
     flex-direction: column;
-    justify-content: center; } }
+    justify-content: center; }
+  footer {
+    flex-direction: column; } }
 
 @media only screen and (min-width: 600px) {
   .navegador__lista {

@@ -47,9 +47,7 @@ h3{
             margin-bottom: 10px;
             justify-content: space-evenly;
     }      
-    &__centradoVino{
-        justify-content: center;
-    }
+    
 }
 .boton{
     padding-left: 28px;
@@ -74,10 +72,8 @@ h3{
 }
 .promociones{
     text-align: center;
-    
 }
-.flotante{
-    float: right;
-    position: relative -1;
-    
+.tituloPromociones{
+    color:white;
 }
+
