@@ -27,15 +27,17 @@ nav{
 
     a{
         text-decoration:none;
-        color: white;
+        color: $colorBlanco;
         font-family: $tipografia;
         font-stretch: condensed;
         font-style: $estilo;
     }
     
+    
     li:hover{
         background-color: $colorRosa;
         transform: unset;
+        
     }
     a:hover{
         color: $colorVioleta;
