@@ -4,6 +4,7 @@ body{
     background: $colorVioleta;
 }
 
+
 header{
     display: inline-block;
     width: 100%;
@@ -11,6 +12,10 @@ header{
 
 header div{
     text-align: center;
+}
+main{
+    padding-bottom: 15px;
+    padding-top: 10px;
 }
 
 h1{ 
