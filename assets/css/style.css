@@ -8,6 +8,10 @@ header {
 header div {
   text-align: center; }
 
+main {
+  padding-bottom: 15px;
+  padding-top: 10px; }
+
 h1 {
   font-stretch: condensed;
   font-style: oblique;
