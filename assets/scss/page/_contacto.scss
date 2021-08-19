@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 label{
@@ -16,3 +17,23 @@ form{
 form div input{
     width: 100%;
 }
+=======
+
+
+label{
+    display: block;
+}
+form{
+    text-align: $texto;
+    font-family: $tipografia;
+    color: $colorNegro;
+    font-style: $estilo;
+    font-size: 20px;
+    margin-left: $margen;
+    margin-right: $margen;
+    
+}
+form div input{
+    width: 100%;
+}
+>>>>>>> 2812f77613e1540605d416fa9d7b74d50597ba99

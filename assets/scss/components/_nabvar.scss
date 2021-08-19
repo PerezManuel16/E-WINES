@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 nav{
     margin-bottom:10px ;
     
@@ -42,4 +43,50 @@ nav{
     a:hover{
         color: $colorVioleta;
     }
+=======
+nav{
+    margin-bottom:10px ;
+    
+    ul{
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;        
+    }
+
+    li{
+        text-align: center;
+        font-family: $tipografia;
+        font-size: 20px;
+        background-color:$colorNegro;
+        color: $colorNegro;
+        border: solid 1px;
+        width: 100%;
+        transition: 0.5s;
+        font-stretch: condensed;
+        font-style: oblique;
+        height: 35px;
+        
+
+    }
+
+    a{
+        text-decoration:none;
+        color: $colorBlanco;
+        font-family: $tipografia;
+        font-stretch: condensed;
+        font-style: $estilo;
+    }
+    
+    
+    li:hover{
+        background-color: $colorRosa;
+        transform: unset;
+        
+    }
+    a:hover{
+        color: $colorVioleta;
+    }
+>>>>>>> 2812f77613e1540605d416fa9d7b74d50597ba99
 }
