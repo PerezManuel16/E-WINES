@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-
 body{
     background: $colorVioleta;
 }
@@ -41,48 +38,4 @@ p{
     font-style: $estilo;
     font-family: $tipografia;
     font-size: 18px;
-=======
-
-
-body{
-    background: $colorVioleta;
-}
-
-
-header{
-    display: inline-block;
-    width: 100%;
-}
-
-header div{
-    text-align: center;
-}
-main{
-    padding-bottom: 15px;
-    padding-top: 10px;
-}
-
-h1{ 
-    font-stretch: condensed;
-    font-style: oblique;
-    font-family: $tipografia;
-    font-size: 300%;
-    font-weight: 500;
-    text-align: center;
-    color: black;
-    width: auto;
-    padding-bottom: 35px;
-}
-
-h2{
-    font-family: $tipografia;
-    color: $colorNegro;
-    font-size: 30px;
-    text-align: center;
-}
-p{
-    font-style: $estilo;
-    font-family: $tipografia;
-    font-size: 18px;
->>>>>>> 2812f77613e1540605d416fa9d7b74d50597ba99
 }

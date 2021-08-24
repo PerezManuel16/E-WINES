@@ -357,7 +357,7 @@ footer {
   .contenidoVinos {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-areas: "area1 area2" "area3 area4" "area5 area6" "area7 area8";
+    grid-template-areas: "area1 area2" "area3 area4" "area5 area6" "area7 area8";
     justify-items: start;
     column-gap: 5px;
     row-gap: 5px; }
