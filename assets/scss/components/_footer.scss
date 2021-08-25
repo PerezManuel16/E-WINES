@@ -3,21 +3,21 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content:space-around;
-    background-color: $colorNegro;
+    background-color: $color1;
     
     .derechos{
-        color: $colorBlanco;
+        color: $color2;
         text-align: center;
         justify-content: start;
         margin-top: 10px;    
     }
     .ubicacion{
         margin-top: 10px;    
-        color: $colorBlanco;
+        color: $color2;
     }
     .siguenos{
         margin-top: 10px;    
-        color: $colorBlanco;
+        color: $color2;
         text-align: center;
     }
     div ul{

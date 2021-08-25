@@ -239,7 +239,7 @@ nav {
     font-stretch: condensed;
     font-style: italic; }
   nav li:hover {
-    background-color: #FF94C9;
+    background-color: #ff94c9;
     transform: unset; }
   nav a:hover {
     color: #923664; }

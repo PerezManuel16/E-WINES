@@ -13,8 +13,8 @@ nav{
         text-align: center;
         font-family: $tipografia;
         font-size: 20px;
-        background-color:$colorNegro;
-        color: $colorNegro;
+        background-color:$color1;
+        color: $color1;
         border: solid 1px;
         width: 100%;
         transition: 0.5s;
@@ -25,7 +25,7 @@ nav{
 
     a{
         text-decoration:none;
-        color: $colorBlanco;
+        color: $color2;
         font-family: $tipografia;
         font-stretch: condensed;
         font-style: $estilo;
@@ -33,11 +33,11 @@ nav{
     
     
     li:hover{
-        background-color: $colorRosa;
+        background-color: $color4;
         transform: unset;
         
     }
     a:hover{
-        color: $colorVioleta;
+        color: $color3;
     }
 }
