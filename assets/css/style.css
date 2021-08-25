@@ -378,3 +378,7 @@ footer {
     font-family: "Alegreya SC", serif;
     font-size: 18px;
     font-style: italic; } }
+
+.error {
+  display: flex;
+  justify-content: center; }
