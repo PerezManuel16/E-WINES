@@ -1,38 +1,32 @@
 body {
   background: #923664; }
-
-header {
-  display: inline-block;
-  width: 100%; }
-
-header div {
-  text-align: center; }
-
-main {
-  padding-bottom: 15px;
-  padding-top: 10px; }
-
-h1 {
-  font-stretch: condensed;
-  font-style: oblique;
-  font-family: "Alegreya SC", serif;
-  font-size: 300%;
-  font-weight: 500;
-  text-align: center;
-  color: black;
-  width: auto;
-  padding-bottom: 35px; }
-
-h2 {
-  font-family: "Alegreya SC", serif;
-  color: black;
-  font-size: 30px;
-  text-align: center; }
-
-p {
-  font-style: italic;
-  font-family: "Alegreya SC", serif;
-  font-size: 18px; }
+  body header {
+    display: inline-block;
+    width: 100%; }
+    body header div {
+      text-align: center; }
+  body main {
+    padding-bottom: 15px;
+    padding-top: 10px; }
+  body h1 {
+    font-stretch: condensed;
+    font-style: oblique;
+    font-family: "Alegreya SC", serif;
+    font-size: 300%;
+    font-weight: 500;
+    text-align: center;
+    color: black;
+    width: auto;
+    padding-bottom: 35px; }
+  body h2 {
+    font-family: "Alegreya SC", serif;
+    color: black;
+    font-size: 30px;
+    text-align: center; }
+  body p {
+    font-style: italic;
+    font-family: "Alegreya SC", serif;
+    font-size: 18px; }
 
 section {
   display: flex;
@@ -197,9 +191,6 @@ h3 {
   font-family: "Alegreya SC", serif;
   margin-right: 10px; }
 
-label {
-  display: block; }
-
 form {
   text-align: center;
   font-family: "Alegreya SC", serif;
@@ -208,9 +199,10 @@ form {
   font-size: 20px;
   margin-left: 20%;
   margin-right: 20%; }
-
-form div input {
-  width: 100%; }
+  form label {
+    display: block; }
+  form input {
+    width: 100%; }
 
 nav {
   margin-bottom: 10px; }

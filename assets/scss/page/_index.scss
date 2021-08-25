@@ -1,41 +1,41 @@
 body{
     background: $color3;
-}
 
+    header{
+        display: inline-block;
+        width: 100%;
 
-header{
-    display: inline-block;
-    width: 100%;
-}
+        div{
+            text-align: center;
+        }
+    }
+    main{
+        padding-bottom: 15px;
+        padding-top: 10px;
+    }
 
-header div{
-    text-align: center;
-}
-main{
-    padding-bottom: 15px;
-    padding-top: 10px;
-}
+    h1{ 
+        font-stretch: condensed;
+        font-style: oblique;
+        font-family: $tipografia;
+        font-size: 300%;
+        font-weight: 500;
+        text-align: center;
+        color: black;
+        width: auto;
+        padding-bottom: 35px;   
+    }
 
-h1{ 
-    font-stretch: condensed;
-    font-style: oblique;
-    font-family: $tipografia;
-    font-size: 300%;
-    font-weight: 500;
-    text-align: center;
-    color: black;
-    width: auto;
-    padding-bottom: 35px;
-}
+    h2{
+        font-family: $tipografia;
+        color: $color1;
+        font-size: 30px;
+        text-align: center;
+    }
 
-h2{
-    font-family: $tipografia;
-    color: $color1;
-    font-size: 30px;
-    text-align: center;
-}
-p{
-    font-style: $estilo;
-    font-family: $tipografia;
-    font-size: 18px;
+    p{
+        font-style: $estilo;
+        font-family: $tipografia;
+        font-size: 18px;
+    }
 }
