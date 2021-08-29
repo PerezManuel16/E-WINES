@@ -1,7 +1,7 @@
 section{
-    display: flex;
-    flex-direction: column;
-    margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
 
     img{
         max-width: 80%;
@@ -16,7 +16,7 @@ section{
     }
 
     h2{
-    margin-top: 20px;
-    font-family: $tipografia;
+        margin-top: 20px;
+        font-family: $tipografia;
     }
 }
